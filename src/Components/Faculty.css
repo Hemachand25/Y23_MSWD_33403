@@ -1,0 +1,42 @@
+.student-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cards horizontally */
+    gap: 15px; /* Space between cards */
+    padding: 15px; /* Padding around the container */
+  }
+  
+  .student-card {
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 15px; /* Slightly smaller rounded corners */
+    padding: 15px; /* Reduced padding */
+    margin: 0; /* Remove extra margin to rely on gap for spacing */
+    width: calc(25% - 30px); /* Adjust width for responsiveness */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Slightly lighter shadow */
+    text-align: center;
+    background: linear-gradient(135deg, #2c3e50, #34495e); /* Navy blue gradient */
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .student-card:hover {
+    transform: translateY(-8px); /* Slightly smaller hover effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly lighter hover shadow */
+  }
+  
+  .card-body {
+    padding: 8px; /* Reduced padding */
+  }
+  
+  .card-title {
+    font-size: 1.2em; /* Smaller font size */
+    color: #ecf0f1; /* Light grey */
+  }
+  
+  .card-text {
+    margin: 4px 0; /* Reduced margin */
+    color: #ecf0f1; /* Light grey */
+  }
+  
+  .card-text strong {
+    color: #bdc3c7; /* Slightly darker grey */
+  }

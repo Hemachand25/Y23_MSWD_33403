@@ -1,0 +1,42 @@
+.schedule-container {
+    padding: 20px;
+  }
+  
+  .filters {
+    margin-bottom: 20px;
+  }
+  
+  .day-input {
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+  
+  .cards-container {
+    display: flex;           /* Use flexbox */
+    flex-wrap: wrap;         /* Allow cards to wrap to the next line if needed */
+    gap: 20px;               /* Space between cards */
+    justify-content: center; /* Center cards horizontally */
+  }
+  
+  .card {
+    background: #003366;     /* Navy blue background */
+    color: #f0f0f0;          /* Light grey text */
+    border: 1px solid #003366; /* Navy blue border */
+    border-radius: 8px;      /* Rounded corners */
+    padding: 16px;           /* Padding inside cards */
+    width: 200px;            /* Set width of cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly darker shadow for depth */
+    box-sizing: border-box;  /* Include padding and border in the card’s total width and height */
+  }
+  
+  .card h3 {
+    margin: 0 0 10px 0;      /* Margin below title */
+    color: #f0f0f0;          /* Light grey text for card title */
+  }
+  
+  .card p {
+    margin: 5px 0;           /* Margin for card text */
+  }

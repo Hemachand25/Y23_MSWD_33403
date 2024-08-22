@@ -1,0 +1,32 @@
+.student-card {
+  border: 1px solid #003366; /* Navy blue border */
+  border-radius: 15px;       /* Slightly rounded corners */
+  padding: 15px;             /* Padding inside card */
+  margin: 15px;              /* Margin around card */
+  width: calc(33.333% - 30px); /* Adjust width for responsiveness */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Lighter shadow for depth */
+  text-align: center;
+  background: #003366;       /* Navy blue background */
+  color: #f0f0f0;            /* Light grey text color */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+.student-card:hover {
+  transform: translateY(-8px); /* Lift effect on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.student-card h4 {
+  margin: 0 0 10px; /* Margin below title */
+  font-size: 1.2em; /* Font size for title */
+  color: #f0f0f0;   /* Light grey title color */
+}
+
+.student-card p {
+  margin: 4px 0;    /* Margin for paragraphs */
+  color: #f0f0f0;   /* Light grey text color */
+}
+
+.student-card p strong {
+  color: #d0d0d0;   /* Slightly lighter grey for emphasis */
+}
